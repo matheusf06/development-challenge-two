@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "PacientesInputModel",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "nome": {
+            "type": "string"
+        },
+        "cpf": {
+            "type": "string"
+        },
+        "rg": {
+            "type": "string"
+        },
+        "telefone": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "rua": {
+            "type": "string"
+        },
+        "numero": {
+            "type": "string"
+        },
+        "cidade": {
+            "type": "string"
+        },
+        "estado": {
+            "type": "string"
+        }
+    }
+}
